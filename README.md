@@ -1,6 +1,9 @@
 # YuYi
 Poto 基于霓裳主题，再设计的小鹤音形羽衣主题
 
+![羽衣](https://user-images.githubusercontent.com/59009389/215304610-ef392e25-0272-4f63-b919-60515bfce7e2.png)
+
+
 特性  
 隐藏按钮为骷髅  
 长按回车更换输入法  
