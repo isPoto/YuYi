@@ -1932,7 +1932,7 @@ preset_keys:
   Liquid_switch: {toggle: _liquid_keyboard, send: Mode_switch, states: [ 更多, 普通 ]} #3.2.3
   Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ ≑, ≟]}
   # trime设置
-  IME_switch: {label: '🌐', functional: false, send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
+  IME_switch: {label: '', functional: false, send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
   IME_switch1: {label: ●, functional: false, send: LANGUAGE_SWITCH}
   IME_last: {label: 上一输入法, send: LANGUAGE_SWITCH, select: .last} #直接切換到上一輸入法
   IME_next: {label: 下一输入法, send: LANGUAGE_SWITCH, select: .next}
