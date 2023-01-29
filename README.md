@@ -16,6 +16,5 @@ Poto 基于霓裳主题，再设计的小鹤音形羽衣主题
 
 
 
-羽衣主题仅测试我手机一加三适配
 
 ![ReceiveMoney](https://user-images.githubusercontent.com/59009389/215301548-15d8ebc1-1eda-4102-9c64-631a87d75e31.png)
