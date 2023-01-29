@@ -935,7 +935,7 @@ preset_keyboards:
     lock: true
     ascii_keyboard: letter  #指定密码键盘
     height: *VJG          #键高
-    horizontal_gap: *VJL  #列距
+    horizontal_gap: *VJL  #列距AAT4
     vertical_gap: *VJH     #行距
     round_corner: *VJY    #圆角
     key_text_offset_y: *DtextY     #键文字纵向偏移
@@ -948,37 +948,37 @@ preset_keyboards:
     label_transform: uppercase #uppercase|none 中文模式键字母：大写|小写
     keys:
       # 第一行
-      - {click: q, long_click: 1, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Q, hilited_key_back_color: AAH}
+      - {click: q, long_click: 1, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_Q, hilited_key_back_color: AAH}
       - {click: w, long_click: 2, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_W, hilited_key_back_color: BBH}
-      - {click: e, long_click: 3, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_E, hilited_key_back_color: CCH}
+      - {click: e, long_click: 3, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_E, hilited_key_back_color: CCH}
       - {click: r, long_click: 4, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_R, hilited_key_back_color: AAH}
-      - {click: t, long_click: 5, key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_T, hilited_key_back_color: BBH}
+      - {click: t, long_click: 5, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_T, hilited_key_back_color: BBH}
       - {click: y, long_click: 6, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_Y, hilited_key_back_color: CCH}
-      - {click: u, long_click: 7, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_U, hilited_key_back_color: AAH}
+      - {click: u, long_click: 7, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_U, hilited_key_back_color: AAH}
       - {click: i, long_click: 8, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_I, hilited_key_back_color: BBH}
-      - {click: o, long_click: 9, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_O, hilited_key_back_color: CCH}
+      - {click: o, long_click: 9, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_O, hilited_key_back_color: CCH}
       - {click: p, long_click: 0, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_P, hilited_key_back_color: AAH}
       # 第二行
-      - {click: a, long_click: select_all1, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
-      - {click: a, long_click: select_all, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_A, hilited_key_back_color: AAH}
+      - {click: a, long_click: select_all1, key_text_color: 0x00, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
+      - {click: a, long_click: select_all, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_A, hilited_key_back_color: AAH}
       - {click: s, long_click: "^", key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_S, hilited_key_back_color: BBH}
-      - {click: d, long_click: ".", swipe_up: Date, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_D, hilited_key_back_color: CCH}
+      - {click: d, long_click: ".", swipe_up: Date, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_D, hilited_key_back_color: CCH}
       - {click: f, long_click: "!", swipe_up: Time, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_F, hilited_key_back_color: AAH}
-      - {click: g, long_click: K_edit, swipe_up: Hide, key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_G, hilited_key_back_color: BBH}
+      - {click: g, long_click: K_edit, swipe_up: Hide, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_G, hilited_key_back_color: BBH}
       - {click: h, long_click: "_", key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_H, hilited_key_back_color: CCH}
-      - {click: j, long_click: "#", key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_J, hilited_key_back_color: AAH}
+      - {click: j, long_click: "#", key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_J, hilited_key_back_color: AAH}
       - {click: k, long_click: '"', key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_K, hilited_key_back_color: BBH}
-      - {click: l, long_click: "'", key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_L, hilited_key_back_color: CCH}
+      - {click: l, long_click: "'", key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_L, hilited_key_back_color: CCH}
       - {click: l, long_click: "'", key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
       # 第三行
       - {click: Shift_L, composing: Escape, swipe_up: Candidate_switch, width: 15, key_text_color: SHt}
-      - {click: z, long_click: "`", key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
+      - {click: z, long_click: "`", key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
       - {click: x, long_click: cut, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_X, hilited_key_back_color: BBH}
-      - {click: c, long_click: copy, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_C, hilited_key_back_color: CCH}
+      - {click: c, long_click: copy, key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_C, hilited_key_back_color: CCH}
       - {click: v, long_click: paste, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_V, hilited_key_back_color: AAH}
-      - {click: b, long_click: "@", key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_B, hilited_key_back_color: BBH}
+      - {click: b, long_click: "@", key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_B, hilited_key_back_color: BBH}
       - {click: n, long_click: "/", key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_N, hilited_key_back_color: CCH}
-      - {click: m, long_click: ":", key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_M, hilited_key_back_color: AAH}
+      - {click: m, long_click: ":", key_text_color: 0x00, key_symbol_color: AAS, key_back_color: A_M, hilited_key_back_color: AAH}
       - {click: BackSpace, swipe_up: DelH, key_back_color: hsb, hilited_key_back_color: hsh, key_text_color: hst, hilited_key_text_color: hsht, width: 15}
       # 第四行
       - {click: K_symbols123, width: *SBK, key_symbol_offset_x: 16, long_click: K_menu, swipe_up: Menu, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh, hilited_key_symbol_color: szhs} #方案选择
@@ -1863,8 +1863,8 @@ preset_keys:
   Shift1: {functional: false, label: ☩, preview: ☩, send: Shift_L, shift_lock: click}  # 英文状态一次锁定
   Return: {label: Enter, preview: ↩, send: Return}
   Return1: {label: Enter, repeatable: true, preview: ↩, send: Return}
-  Hide: {label: ☠️, send: BACK}
-  Hide1: {text: "{Hide}{K_back}", label: ☠️, send: BACK}
+  Hide: {label: ﹀, send: BACK}
+  Hide1: {text: "{Hide}{K_back}", label: ﹀, send: BACK}
   BackSpace: {label: ⌫, preview: ⌫, repeatable: true, send: BackSpace}
   BackSpace1: {label: ⌫, preview: ⌫, repeatable: true, functional: false, send: BackSpace}
   space: {repeatable: false, preview: ␣, functional: false, send: space}
@@ -1932,7 +1932,7 @@ preset_keys:
   Liquid_switch: {toggle: _liquid_keyboard, send: Mode_switch, states: [ 更多, 普通 ]} #3.2.3
   Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ ≑, ≟]}
   # trime设置
-  IME_switch: {label: '', functional: false, send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
+  IME_switch: {label: ●, functional: false, send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
   IME_switch1: {label: ●, functional: false, send: LANGUAGE_SWITCH}
   IME_last: {label: 上一输入法, send: LANGUAGE_SWITCH, select: .last} #直接切換到上一輸入法
   IME_next: {label: 下一输入法, send: LANGUAGE_SWITCH, select: .next}

@@ -17,9 +17,9 @@ punctuator:
 
 switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
   - options: [ _keyboard_menu ]
-    states: [ "　☰" ]
+    #states: [ "　☰" ]
   - name: ascii_mode
-    states: [ CN, EN ]
+    #states: [ CN, EN ]
     reset: 0
   - name: full_shape
     #states: [ ◖, ● ]
@@ -28,7 +28,7 @@ switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
     #states: [ ≑, ≟ ]
     reset: 0
   - options: [ _keyboard_emoji, _keyboard_emoji ]
-    states: [ "🎏", "😂"]
+    #states: [ "🎏", "😂"]
   - options: [ _liquid_keyboard ]
     #states: [ ⏍ ]
   - options: [ _keyboard_number ]
@@ -46,7 +46,7 @@ switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
     #states: [ "，。", " ,　. " ]
     reset: 0
   - options: [ _keyboard_default, _keyboard_defaultVJ]
-    states: [ "　　　　　　  ", "　　　　　　  "]
+    states: [ "　　　　　　  　　　　　　  　　　　　  ", ""]
   - options: [ _key_Hide ]
     states: [ ☠️ ]
     
