@@ -1948,7 +1948,7 @@ preset_keys:
   K_number: {label: 123, send: Eisu_toggle, select: number}
   K_edit: {label: ‹ɪ›, send: Eisu_toggle, select: edit}
   K_symbols: {label: ✡, send: Eisu_toggle, select: symbolsEN}
-  K_symbols123: {label: ϟ12, send: Eisu_toggle, select: symbolsSZ}
+  K_symbols123: {label: ϟ, send: Eisu_toggle, select: symbolsSZ}
   K_symbolsSZ: {label: 数字, send: Eisu_toggle, select: symbolsSZ}
   K_symbolsEN: {label: 英文, send: Eisu_toggle, select: symbolsEN}
   K_symbolsCN: {label: 中文, send: Eisu_toggle, select: symbolsCN}
