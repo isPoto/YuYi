@@ -983,7 +983,7 @@ preset_keyboards:
       # 第四行
       - {click: K_symbols123, width: *SBK, key_symbol_offset_x: 16, long_click: K_menu, swipe_up: Menu, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh, hilited_key_symbol_color: szhs} #方案选择
       - {click: ",", label: "  ，", width: *SBK, composing: delimiterD, key_symbol_offset_x: 16, long_click: "?", key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: bdht, hilited_key_symbol_color: bdhs}
-      - {click: space, width: *KGK, key_text_size: 9, long_click: Mode_switch, swipe_left: Left, swipe_right: Right, key_back_color: zkgb, key_text_offset_y: 2, key_text_color: 0x00, hilited_key_text_color: 0x00, hilited_key_symbol_color: 0x00, key_symbol_color: 0x00, hilited_key_back_color: zkgh}
+      - {click: space, label: ' ',width: *KGK, key_text_size: 9, long_click: Mode_switch, swipe_left: Left, swipe_right: Right, key_back_color: zkgb, key_text_offset_y: 2, key_text_color: 0x00, hilited_key_text_color: 0x00, hilited_key_symbol_color: 0x00, key_symbol_color: 0x00, hilited_key_back_color: zkgh}
       - {click: ";", composing: space2, width: *FHK, key_text_size: 18, long_click: Mode_switch, key_text_offset_y: 2, key_symbol_offset_y: 6, key_symbol_offset_x: 0, key_back_color: ykgb, key_text_color: ykgt, hilited_key_text_color: kght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: ykgh}
       - {click: Return, width: *HCK, key_symbol_offset_x: 20, long_click: IME_switch, swipe_up: Theme_settings, key_back_color: hcb, key_text_color: hct, key_symbol_color: hcs, hilited_key_back_color: hch, hilited_key_text_color: hcht, hilited_key_symbol_color: hchs}
       # 第五行ZGH
@@ -1867,7 +1867,7 @@ preset_keys:
   Hide1: {text: "{Hide}{K_back}", label: ﹀, send: BACK}
   BackSpace: {label: ⌫, preview: ⌫, repeatable: true, send: BackSpace}
   BackSpace1: {label: ⌫, preview: ⌫, repeatable: true, functional: false, send: BackSpace}
-  space: {repeatable: false, preview: ␣, functional: false, send: space}
+  space: {label: ' ',repeatable: false, preview: ␣, functional: false, send: space}
   space1: {repeatable: true, preview: ␣, label: ␣, functional: true, send: space}
   space2: {repeatable: true, preview: ␣, label: " ", functional: false, send: space}
   Clear: {label: 全清, send: Clear}
@@ -1917,7 +1917,7 @@ preset_keys:
   CommitComment: {label: 编码, send: Control+Shift+Return}
   DeleteCandidate: {label: 删词, send: Control+Delete, functional: false}
   # rime状态
-  Mode_switch: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 中文, En ]}
+  Mode_switch: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ " ",  " " ]}
   Full_Half: {toggle: full_shape, functional: false, send: Mode_switch, states: [ ◖, ● ]}
   Full_Half1: {toggle: full_shape, functional: false, text: "{Full_Half}{K_back}", send: Mode_switch, states: [ ◖, ● ]}
   simplification: {toggle: simplification, functional: false, send: Mode_switch, states: [ ·汉·, ·漢· ]}
