@@ -7,7 +7,8 @@ Poto 基于霓裳主题，再设计的小鹤音形羽衣主题
 轮回无刻  
 干净状态栏  
 
-![image](https://user-images.githubusercontent.com/59009389/215301674-b1fa4603-6923-43bd-aab2-213bfe5ba870.png)
+![image](https://user-images.githubusercontent.com/59009389/215304395-8e34014e-9938-430f-87f8-dc83127bce10.png)
+
 
 
 羽衣主题仅测试我手机一加三适配
